@@ -1,5 +1,5 @@
 *{
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
 body{
@@ -44,7 +44,7 @@ body{
 /* MAIN STYLING */
 
 .main-container{
-    height:70vh;
+    height:80vh;
     display:flex;
     flex-flow:column nowrap;
     justify-content: center;
@@ -59,11 +59,14 @@ body{
     display:flex;
     flex-flow:column nowrap;
     align-items: center;
+    justify-content: flex-start;
+    background:#f2f2f2;
 }
 .footer-links{
     display:flex;
     justify-content: space-between;
     width: 100%;
+    color:#70757a;
 }
 
 .footer-link-style{
@@ -71,11 +74,17 @@ body{
     padding:0;
     display:flex;
     justify-content: space-around;
+    
+    
 }
 
 .footer-group-left{
     margin-left:1.5%;
     min-width:25%;
+    height:100%;
+    /* display: flex;
+    justify-content: space-around;
+    align-self: flex-end; */
 }
 .footer-group-right{
     margin-right:1.5%;
